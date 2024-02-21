@@ -2,7 +2,7 @@
 <html lang="ja">
 
 <head>
-    <title>正解</title>
+    <title>プププランド</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
     <header class="mb-3">
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1">正解</span>
+                <span class="navbar-brand mb-0 h1">プププランド</span>
             </div>
         </nav>
     </header>
@@ -27,10 +27,10 @@
     <div class="container">
 
         <div class="alert alert-success mb-3" role="alert">
-            <p>内輪用。練習にいい感じの譜面まとめ。次期難易度表フォーマット対応。</p>
-            <p>難易度表の読み込みと表示に数秒かかります。</p>
+            <p>あきれかえるほど平和な国「プププランド」</p>
+            <p>(個人的に好きな譜面をまとめているだけ)</p>
             <hr>
-            <p class="mb-0">難易度目安 @-0=sl0 @0=st0 基本的にはイージー基準 ハード難易度は多少考慮</p>
+            <p class="mb-0">難易度目安 @-0=sl0 @0=st0</p>
         </div>
 
 
@@ -83,19 +83,10 @@
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Artist
-                    $("<td width='20%'>" + info[i].artist + "</td>").appendTo(str);
-
-                    // BPM
-                    $("<td width='5%'>" + info[i].BPM + "</td>").appendTo(str);
-
-                    // Notes
-                    $("<td width='5%'>" + info[i].Notes + "</td>").appendTo(str);
-
-                    // TOTAL
-                    $("<td width='5%'>" + info[i].TOTAL + "</td>").appendTo(str);
+                    $("<td width='30%'>" + info[i].artist + "</td>").appendTo(str);
 
                     // Comment
-                    $("<td width='25%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='30%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
